@@ -66,7 +66,7 @@
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
         "lib/entity.js": "1fd29825b7fc64f5ff2e09345d6213e60acfc1bfd7dc4cbf486ede27d195603c",
         "lib/notify.js": "0075eba56cf4bc5e040bf69ee0c2a4766944f7c1c3e9f7db70178188741262a9",
-        "lib/party.js": "09affbe0e630c9babf9201271e03fa132ee846295b74eeb5d4293015a2756a71",
+        "lib/party.js": "e685e49437836d72862344b004d2283d601d29a112077a58014256286309af8c",
         "module.json": "b89fd9b55e43d645441b8c56efaeb984b91bcaea8eb27fb67491e2c40496851c",
         "previews/colors.jpg": {
 			"overwrite": false,
