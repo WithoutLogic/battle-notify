@@ -8,12 +8,12 @@ module.exports = [
 		rewarn_timeout: 10
 	},
 
-/*
+
 	// Double Cut Reset
 	{
 		type: 'Reset',
 		skills: 140100,
 		message: '{icon} Reset'
 	},
-*/
+	
 ]

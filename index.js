@@ -366,4 +366,4 @@ function BattleNotify(mod) {
 }
 
 
-exports.NetworkMod = BattleNotify;
+module.exports = BattleNotify;

@@ -11,6 +11,7 @@ Original mod by wuaw (https://github.com/wuaw/battle-notify).
 
 The `config` folder has all the files necessary to customize the events that are shown.
 
+
 ## Styling options
 
 The file `./config/common_styling.js` contains the default styling options that will be prepended to each event.
