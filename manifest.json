@@ -66,7 +66,7 @@
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
         "lib/entity.js": "1fd29825b7fc64f5ff2e09345d6213e60acfc1bfd7dc4cbf486ede27d195603c",
         "lib/notify.js": "0075eba56cf4bc5e040bf69ee0c2a4766944f7c1c3e9f7db70178188741262a9",
-        "lib/party.js": "1ff031788533537ad8b7496add68b1f735e0226a556333a7fae3edf9a881a586",
+        "lib/party.js": "26d8962d8e5830d76d5e5c8f21957ce36e6cb0fdd509d1e622264d22c4c16249",
         "module.json": "b89fd9b55e43d645441b8c56efaeb984b91bcaea8eb27fb67491e2c40496851c",
         "previews/colors.jpg": {
 			"overwrite": false,
@@ -80,31 +80,5 @@
 			"overwrite": false,
 			"hash": "a9df41e538aa1eec005e286905f6578abd0cd2320e6d864a704bb491fc019d98"
 		}
-    },
-    "defs": {
-        "C_CHAT": 1,
-        "S_ABNORMALITY_BEGIN": 3,
-        "S_ABNORMALITY_END": 1,
-        "S_ABNORMALITY_REFRESH": 1,
-        "S_BOSS_GAGE_INFO": 3,
-        "S_CHAT": 3,
-        "S_CREATURE_CHANGE_HP": 6,
-        "S_CREATURE_LIFE": 3,
-        "S_CREST_MESSAGE": 2,
-        "S_DECREASE_COOLTIME_SKILL": 3,
-        "S_DESPAWN_NPC": 3,
-        "S_DUNGEON_EVENT_MESSAGE": 2,
-        "S_EACH_SKILL_RESULT": [13,14],
-        "S_LOAD_TOPO": ["event",3],
-        "S_LOGIN": ["event",13,14],
-        "S_NPC_STATUS": 2,
-        "S_PARTY_MEMBER_LIST": 7,
-        "S_PRIVATE_CHAT": ["event",1],
-        "S_RETURN_TO_LOBBY": "event",
-        "S_SPAWN_ME": 3,
-        "S_SPAWN_USER": 17,
-        "S_START_COOLTIME_ITEM": 1,
-        "S_START_COOLTIME_SKILL": 3,
-        "S_USER_STATUS": 3
     }
 }
