@@ -1,66 +1,21 @@
 {
     "files": {
         "README.md": "501709e3e1d93f0800ac7f3d38e0e8423bbce09eabf6bae62717437ea6bb5498",
-        "config/archer.js": {
-			"overwrite": false,
-			"hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
-		},
-        "config/berserker.js": {
-			"overwrite": false,
-			"hash": "b7e8247d35618db74a8698ff96c490c05ef77a5f326eb822c72a6fc0e807371f"
-		},
-        "config/brawler.js": {
-			"overwrite": false,
-			"hash": "ec20f652eebf533e2a030082ad593aa0d56469b59e8dcd9728da2d5c2f799b9a"
-		},
-        "config/common.js": {
-			"overwrite": false,
-			"hash": "b3554fd7da76ff6fff25efed00b3c519d182d08df453e8a5f59bde6ae819a8dd"
-		},
-        "config/common_styling.js": {
-			"overwrite": false,
-			"hash": "32e46b7e9ef6066b1762447055632756e41ddc7a4b64562378e01ab2f98adbc0"
-		},
-        "config/gunner.js": {
-			"overwrite": false,
-			"hash": "6f8f0e5e3b56db90d89e95168c5749073b411ba209a77b2b452f33aba07f2ab6"
-		},
-        "config/lancer.js": {
-			"overwrite": false,
-			"hash": "549818776d7e76eebf93286ad085d070c309ca1fc7502fc4238b9f341504986c"
-		},
-        "config/mystic.js": {
-			"overwrite": false,
-			"hash": "335393f1979d7d8660e2e031c9e2c3c0b93e16080ecd7166b6e927c017731a11"
-		},
-        "config/ninja.js": {
-			"overwrite": false,
-			"hash": "2e946afe25ed1250dd2ed7b37cfcc2c6bc80b4be4cfd7e971828c40d31da9d30"
-		},
-        "config/priest.js": {
-			"overwrite": false,
-			"hash": "13e3258ad3de2f0a50e47a7d2e7a15a3b1cfb3d8117149c899dd22a9609f75c2"
-		},
-        "config/reaper.js": {
-			"overwrite": false,
-			"hash": "7d377b2dcfdb60fcf8155d9a62d63446a28f1e79d866154ef54917d9d0f0e727"
-		},
-        "config/slayer.js": {
-			"overwrite": false,
-			"hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"
-		},
-        "config/sorcerer.js": {
-			"overwrite": false,
-			"hash": "b8aa6d02a9f31b9556e58aa73e0001ea270c91f8e957ff135e657bb314b0c5ef"
-		},
-        "config/valkyrie.js": {
-			"overwrite": false,
-			"hash": "613de3cd2c5f159e251962a438c82e95e2d7e2c78e416a725ab9911f286b9b65"
-		},
-        "config/warrior.js": {
-			"overwrite": false,
-			"hash": "88b7fe36d94aa671105932f3cd464676e7dbe700ffc27a4b2e3a4c529aa44eb6"
-		},
+        "config/archer.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
+        "config/berserker.js": "b7e8247d35618db74a8698ff96c490c05ef77a5f326eb822c72a6fc0e807371f",
+        "config/brawler.js": "ec20f652eebf533e2a030082ad593aa0d56469b59e8dcd9728da2d5c2f799b9a",
+        "config/common.js": "4e4c0499ee5505935f5380387f4c08ae1ba71b62a093d984a1e557caf0bbdd5b",
+        "config/common_styling.js": "32e46b7e9ef6066b1762447055632756e41ddc7a4b64562378e01ab2f98adbc0",
+        "config/gunner.js": "6f8f0e5e3b56db90d89e95168c5749073b411ba209a77b2b452f33aba07f2ab6",
+        "config/lancer.js": "549818776d7e76eebf93286ad085d070c309ca1fc7502fc4238b9f341504986c",
+        "config/mystic.js": "335393f1979d7d8660e2e031c9e2c3c0b93e16080ecd7166b6e927c017731a11",
+        "config/ninja.js": "2e946afe25ed1250dd2ed7b37cfcc2c6bc80b4be4cfd7e971828c40d31da9d30",
+        "config/priest.js": "13e3258ad3de2f0a50e47a7d2e7a15a3b1cfb3d8117149c899dd22a9609f75c2",
+        "config/reaper.js": "7d377b2dcfdb60fcf8155d9a62d63446a28f1e79d866154ef54917d9d0f0e727",
+        "config/slayer.js": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276",
+        "config/sorcerer.js": "662f131ebe00dfafb12da933d622f78310d8908aa04b7175d4c16c8a9968b86b",
+        "config/valkyrie.js": "613de3cd2c5f159e251962a438c82e95e2d7e2c78e416a725ab9911f286b9b65",
+        "config/warrior.js": "88b7fe36d94aa671105932f3cd464676e7dbe700ffc27a4b2e3a4c529aa44eb6",
         "index.js": "b07d6ff634f891809d213739da40ca1a6c4d31c9882614927ffcfc2bd0dde14e",
         "lib/abnormal.js": "023e56bffbf372d8effc78eadea575bff08e3e9751235c16070cb7ee1efeb20c",
         "lib/cooldown.js": "be1e8c8c45be32a743769b4d00b441c2a7973016c7bad699fd97c9c83caec14c",
@@ -68,17 +23,8 @@
         "lib/notify.js": "0075eba56cf4bc5e040bf69ee0c2a4766944f7c1c3e9f7db70178188741262a9",
         "lib/party.js": "26d8962d8e5830d76d5e5c8f21957ce36e6cb0fdd509d1e622264d22c4c16249",
         "module.json": "b89fd9b55e43d645441b8c56efaeb984b91bcaea8eb27fb67491e2c40496851c",
-        "previews/colors.jpg": {
-			"overwrite": false,
-			"hash": "07dea37f507e6a92e7e7719ee728cfc0dee3cbc02466398063c68ba23ec90c5b"
-		},
-        "previews/missing.jpg": {
-			"overwrite": false,
-			"hash": "386353893f17dc24d9cf0d7396c943fce7493f0a62a438db52ffb19955aa734e"
-		},
-        "previews/screenshot.png": {
-			"overwrite": false,
-			"hash": "a9df41e538aa1eec005e286905f6578abd0cd2320e6d864a704bb491fc019d98"
-		}
+        "previews/colors.jpg": "07dea37f507e6a92e7e7719ee728cfc0dee3cbc02466398063c68ba23ec90c5b",
+        "previews/missing.jpg": "386353893f17dc24d9cf0d7396c943fce7493f0a62a438db52ffb19955aa734e",
+        "previews/screenshot.png": "a9df41e538aa1eec005e286905f6578abd0cd2320e6d864a704bb491fc019d98"
     }
 }

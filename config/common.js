@@ -188,12 +188,4 @@ module.exports = [
 		abnormalities: 30209102,
 		message: '{name} has {icon}'
 	},
-	
-	// Brooch abnormalities: [999001052, 999001044]
-    /*{
-		type: 'Ready',
-		target: 'Self',
-		items: [51011,51028,88875,88876,88877,88878,88879,88880,88881,88882,98661,98662,65000510,65000511,65000514],
-		message: '{icon} is up'
-	},*/
 ]
