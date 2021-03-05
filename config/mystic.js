@@ -1,22 +1,22 @@
 module.exports = [
-	// Mana Aura
-	{
-		type: 'MissingDuringCombat',
-		target: 'Self',
-		abnormalities: [700330, 700300],
-		message: "Missing Mana Aura",
-		rewarn_timeout: 10
-	},
+  // Mana Aura
+  {
+    type: 'MissingDuringCombat',
+    target: 'Self',
+    abnormalities: [700330, 700300],
+    message: 'Missing Mana Aura',
+    rewarn_timeout: 10,
+  },
 
-	// Crit Aura
-	{
-		type: 'MissingDuringCombat',
-		target: 'Self',
-		abnormalities: [700600, 700601, 700602, 700603],
-		message: "Missing Crit Aura",
-		rewarn_timeout: 10
-	},
-/*	
+  // Crit Aura
+  {
+    type: 'MissingDuringCombat',
+    target: 'Self',
+    abnormalities: [700600, 700601, 700602, 700603],
+    message: 'Missing Crit Aura',
+    rewarn_timeout: 10,
+  },
+  /*	
 	// Endurance buff (Thrall)
 	{
 		type: 'MissingDuringCombat',
@@ -65,49 +65,49 @@ module.exports = [
         skills: 270100, 
         message: '{icon} reset!'
     },
-*/	
-	// Vergos Buff
-   {
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950514,
-        message: '{icon}{blue}Vergos Buff: stacks {stacks}',
-    },
-	
-    // Vergos Buff
-   {
-        type: 'AddedOrRefreshed',
-        target: 'MyBoss',
-        abnormalities: 950514,
-        message: '{icon}{blue}Regress > {stacks}',
-        required_stacks: 1
-    },
-    
-    // Vergos Defense Up
-   {
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950513,
-        message: '{icon}{red} Defense Up',
-    },
-	
-	// Vergos Defense Up
-   {
-        type: 'AddedorRefreshed',
-        target: 'MyBoss',
-        abnormalities: 950513,
-        message: '{icon}{red} Defense Up',
-		required_stacks: 1
-    },
-	
-	// Vergos 50% Buff
-	{
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950171,
-        message: '{icon}{red}Vergos 50% Buff!'
-    },
-/*	
+*/
+  // Vergos Buff
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950514,
+    message: '{icon}{blue}Vergos Buff: stacks {stacks}',
+  },
+
+  // Vergos Buff
+  {
+    type: 'AddedOrRefreshed',
+    target: 'MyBoss',
+    abnormalities: 950514,
+    message: '{icon}{blue}Regress > {stacks}',
+    required_stacks: 1,
+  },
+
+  // Vergos Defense Up
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950513,
+    message: '{icon}{red} Defense Up',
+  },
+
+  // Vergos Defense Up
+  {
+    type: 'AddedorRefreshed',
+    target: 'MyBoss',
+    abnormalities: 950513,
+    message: '{icon}{red} Defense Up',
+    required_stacks: 1,
+  },
+
+  // Vergos 50% Buff
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950171,
+    message: '{icon}{red}Vergos 50% Buff!',
+  },
+  /*	
 	// Vergos Berserk Timer
 	{
         type: 'Expiring',
@@ -117,4 +117,4 @@ module.exports = [
         time_remaining: [3, 5, 10, 30, 60, 120, 180, 240, 300, 360, 420, 480, 540, 600]
     },
 */
-]
+];

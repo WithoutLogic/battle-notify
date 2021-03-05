@@ -1,5 +1,5 @@
 module.exports = [
-/*	// Triple Nemesis
+  /*	// Triple Nemesis
 	{
 		type: 'MissingDuringCombat',
 		target: 'MyBoss',
@@ -41,56 +41,56 @@ module.exports = [
 		message: '{icon} cd {duration}',
 		time_remaining: 5
 	},
-	
-	//Immersion Reset 
-	{
-		type: 'Reset',
-		skills: 370100, 
-		message: '{icon} Reset'
-	},
-*/	
-	// Vergos Buff
-   {
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950514,
-        message: '{icon}{blue}Vergos Buff: stacks {stacks}',
-    },
-	
-    // Vergos Buff
-   {
-        type: 'AddedOrRefreshed',
-        target: 'MyBoss',
-        abnormalities: 950514,
-        message: '{icon}{blue}Regress > {stacks}',
-        required_stacks: 1
-    },
-    
-    // Vergos Defense Up
-   {
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950513,
-        message: '{icon}{red} Defense Up',
-    },
-	
-	// Vergos Defense Up
-   {
-        type: 'AddedorRefreshed',
-        target: 'MyBoss',
-        abnormalities: 950513,
-        message: '{icon}{red} Defense Up',
-		required_stacks: 1
-    },
-	
-	// Vergos 50% Buff
-	{
-        type: 'Added',
-        target: 'MyBoss',
-        abnormalities: 950171,
-        message: '{icon}{red}Vergos 50% Buff!'
-    },
-	/*
+*/
+  //Immersion Reset
+  {
+    type: 'Reset',
+    skills: 370100,
+    message: '{icon}{blue} Reset',
+  },
+
+  // Vergos Buff
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950514,
+    message: '{icon}{blue}Vergos Buff: stacks {stacks}',
+  },
+
+  // Vergos Buff
+  {
+    type: 'AddedOrRefreshed',
+    target: 'MyBoss',
+    abnormalities: 950514,
+    message: '{icon}{blue}Regress > {stacks}',
+    required_stacks: 1,
+  },
+
+  // Vergos Defense Up
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950513,
+    message: '{icon}{red} Defense Up',
+  },
+
+  // Vergos Defense Up
+  {
+    type: 'AddedorRefreshed',
+    target: 'MyBoss',
+    abnormalities: 950513,
+    message: '{icon}{red} Defense Up',
+    required_stacks: 1,
+  },
+
+  // Vergos 50% Buff
+  {
+    type: 'Added',
+    target: 'MyBoss',
+    abnormalities: 950171,
+    message: '{icon}{red}Vergos 50% Buff!',
+  },
+  /*
 	// Vergos Berserk Timer
 	{
         type: 'Expiring',
@@ -100,12 +100,12 @@ module.exports = [
         time_remaining: [3, 5, 10, 30, 60, 120, 180, 240, 300, 360, 420, 480, 540, 600]
     },
 	*/
-	// ReBuff
-	{
-		type: 'MissingDuringCombat',
-		target: 'PartyIncludingSelf',
-		abnormalities: [805102, 805101],
-		message: '{icon}{blue}{name}: {red}Missing Shakan',
-		rewarn_timeout: 5
-	},
-]
+  // ReBuff
+  {
+    type: 'MissingDuringCombat',
+    target: 'PartyIncludingSelf',
+    abnormalities: [805101, 805102],
+    message: '{icon}{blue}{name}: {red}Missing Shakan',
+    rewarn_timeout: 5,
+  },
+];

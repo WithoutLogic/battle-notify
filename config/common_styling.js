@@ -1,1 +1,1 @@
-module.exports = "{alert}{white}"
+module.exports = '{alert}{white}';
