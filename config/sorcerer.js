@@ -4,7 +4,7 @@ module.exports = [
     type: 'Expiring',
     target: 'Self',
     abnormalities: 503061,
-    message: '{icon}{lightblue} ManaBoost {#45dc70}{duration}',
+    message: '{icon} ManaBoost {duration}',
     time_remaining: [0, 2, 5, 10],
   },
 

@@ -4,7 +4,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'PartyIncludingSelf',
     abnormalities: 950023,
-    message: '{violet}{name} has {stacks} stack(s)',
+    message: '{name} has {stacks} stack(s)',
     required_stacks: 1,
   },
 
@@ -13,7 +13,7 @@ module.exports = [
     type: 'Removed',
     target: 'PartyIncludingSelf',
     abnormalities: 950023,
-    message: "{violet}{name}'s stacks expired",
+    message: "{name}'s stacks expired",
   },
 
   // Vergos Buff
@@ -21,7 +21,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950514,
-    message: '{icon}{blue}Vergos Buff: stacks {stacks}',
+    message: '{icon}Vergos Buff: stacks {stacks}',
   },
 
   // Vergos Buff
@@ -29,7 +29,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'MyBoss',
     abnormalities: 950514,
-    message: '{icon}{blue}Regress > {stacks}',
+    message: '{icon}Regress > {stacks}',
     required_stacks: 1,
   },
 
@@ -38,7 +38,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950513,
-    message: '{icon}{red} Defense Up',
+    message: '{icon} Defense Up',
   },
 
   // Vergos Defense Up
@@ -46,7 +46,7 @@ module.exports = [
     type: 'AddedorRefreshed',
     target: 'MyBoss',
     abnormalities: 950513,
-    message: '{icon}{red} Defense Up {stacks}',
+    message: '{icon} Defense Up {stacks}',
     required_stacks: 1,
   },
 
@@ -55,7 +55,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950171,
-    message: '{icon}{red}Vergos 50% Buff!',
+    message: '{icon}Vergos 50% Buff!',
   },
 
   // Vergos Berserk Timer
@@ -63,7 +63,7 @@ module.exports = [
     type: 'Expiring',
     target: 'MyBoss',
     abnormalities: [950193, 950192],
-    message: '{red}{icon} {duration}',
+    message: '{icon} {duration}',
     time_remaining: [
       3,
       5,

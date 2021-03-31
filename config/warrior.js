@@ -39,21 +39,21 @@ module.exports = [
     type: 'Added',
     target: 'Self',
     abnormalities: 21010,
-    message: '{icon}{lightblue}+15% ats (evasive roll)',
+    message: '{icon}+15% ats (evasive roll)',
   },
   // Added: ATS Glyph - Swift Death From Above, skills: 100700
   {
     type: 'Added',
     target: 'Self',
     abnormalities: 21070,
-    message: '{icon}{lightblue}+15% ats (dfa)',
+    message: '{icon}+15% ats (dfa)',
   },
   // Expiring: ATS Glyphs
   {
     type: 'Expiring',
     target: 'Self',
     abnormalities: [21010, 21070],
-    message: '{icon}{orange}+15% ats expired',
+    message: '{icon}+15% ats expired',
     time_remaining: [0],
   },
   // AddedOrRefreshed: Shadow of the Tempest I
@@ -61,7 +61,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'Self',
     abnormalities: 103120,
-    message: '{icon}{blue} TA I {stacks} stack(s)',
+    message: '{icon} TA I {stacks} stack(s)',
     required_stacks: 42,
   },
   // Added: Shadow of the Tempest I
@@ -69,21 +69,21 @@ module.exports = [
     type: 'Added',
     target: 'Self',
     abnormalities: 103130,
-    message: '{icon}{lightblue} TA I',
+    message: '{icon} TA I',
   },
   // Added: Shadow of the Tempest II
   {
     type: 'Added',
     target: 'Self',
     abnormalities: 103104,
-    message: '{icon}{lightblue} TA II',
+    message: '{icon} TA II',
   },
   // Expiring: Shadow of the Tempest II
   {
     type: 'Expiring',
     target: 'Self',
     abnormalities: [103104, 103130],
-    message: '{icon}{orange} TA {duration}',
+    message: '{icon} TA {duration}',
     time_remaining: [0, 2, 4, 6, 12],
   },
 
@@ -103,7 +103,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'PartyIncludingSelf',
     abnormalities: 950023,
-    message: '{violet}{name} has {stacks} stack(s)',
+    message: '{name} has {stacks} stack(s)',
     required_stacks: 1,
   },
 
@@ -112,7 +112,7 @@ module.exports = [
     type: 'Removed',
     target: 'PartyIncludingSelf',
     abnormalities: 950023,
-    message: "{violet}{name}'s stacks expired",
+    message: "{name}'s stacks expired",
   },
 
   // Vergos Buff
@@ -120,7 +120,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950514,
-    message: '{icon}{blue}Vergos Buff: stacks {stacks}',
+    message: '{icon}Vergos Buff: stacks {stacks}',
   },
 
   // Vergos Buff
@@ -128,7 +128,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'MyBoss',
     abnormalities: 950514,
-    message: '{icon}{blue}Regress > {stacks}',
+    message: '{icon}Regress > {stacks}',
     required_stacks: 1,
   },
 
@@ -137,7 +137,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950513,
-    message: '{icon}{red} Defense Up',
+    message: '{icon} Defense Up',
   },
 
   // Vergos Defense Up
@@ -145,7 +145,7 @@ module.exports = [
     type: 'AddedorRefreshed',
     target: 'MyBoss',
     abnormalities: 950513,
-    message: '{icon}{red} Defense Up {stacks}',
+    message: '{icon} Defense Up {stacks}',
     required_stacks: 1,
   },
 
@@ -154,7 +154,7 @@ module.exports = [
     type: 'Added',
     target: 'MyBoss',
     abnormalities: 950171,
-    message: '{icon}{red}Vergos 50% Buff!',
+    message: '{icon} Vergos 50% Buff!',
   },
 
   // Vergos Berserk Timer
@@ -162,7 +162,7 @@ module.exports = [
     type: 'Expiring',
     target: 'MyBoss',
     abnormalities: [950193, 950192],
-    message: '{red}{icon} {duration}',
+    message: '{icon} {duration}',
     time_remaining: [
       3,
       5,
