@@ -30,7 +30,7 @@ module.exports = [
     type: 'Expiring',
     target: 'Self',
     abnormalities: [101300, 101301],
-    message: '{icon}T-cut {duration}',
+    message: '{icon} T-cut {duration}',
     time_remaining: [0, 3, 6, 9, 12],
   },
 
@@ -39,21 +39,21 @@ module.exports = [
     type: 'Added',
     target: 'Self',
     abnormalities: 21010,
-    message: '{icon}+15% ats (evasive roll)',
+    message: '{icon} {lightblue}+15% ats (evasive roll)',
   },
   // Added: ATS Glyph - Swift Death From Above, skills: 100700
   {
     type: 'Added',
     target: 'Self',
     abnormalities: 21070,
-    message: '{icon}+15% ats (dfa)',
+    message: '{icon} {lightblue}+15% ats (dfa)',
   },
   // Expiring: ATS Glyphs
   {
     type: 'Expiring',
     target: 'Self',
     abnormalities: [21010, 21070],
-    message: '{icon}+15% ats expired',
+    message: '{icon} {orange}+15% ats expired',
     time_remaining: [0],
   },
   // AddedOrRefreshed: Shadow of the Tempest I
@@ -61,7 +61,7 @@ module.exports = [
     type: 'AddedOrRefreshed',
     target: 'Self',
     abnormalities: 103120,
-    message: '{icon} TA I {stacks} stack(s)',
+    message: '{icon} {lightblue}TA I {stacks} stack(s)',
     required_stacks: 42,
   },
   // Added: Shadow of the Tempest I
@@ -69,21 +69,21 @@ module.exports = [
     type: 'Added',
     target: 'Self',
     abnormalities: 103130,
-    message: '{icon} TA I',
+    message: '{icon} {blue}TA I',
   },
   // Added: Shadow of the Tempest II
   {
     type: 'Added',
     target: 'Self',
     abnormalities: 103104,
-    message: '{icon} TA II',
+    message: '{icon} {blue}TA II',
   },
   // Expiring: Shadow of the Tempest II
   {
     type: 'Expiring',
     target: 'Self',
     abnormalities: [103104, 103130],
-    message: '{icon} TA {duration}',
+    message: '{icon} {orange}TA {duration}',
     time_remaining: [0, 2, 4, 6, 12],
   },
 

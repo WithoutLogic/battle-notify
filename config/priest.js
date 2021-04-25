@@ -46,7 +46,7 @@ module.exports = [
   {
     type: 'Reset',
     skills: 370100,
-    message: '{icon} Reset',
+    message: '{icon} {blue}Reset',
   },
 
   // Vergos Buff
@@ -105,7 +105,7 @@ module.exports = [
     type: 'MissingDuringCombat',
     target: 'PartyIncludingSelf',
     abnormalities: [805101, 805102],
-    message: '{icon}{name}: Missing Shakan',
+    message: '{icon} {blue}{name}: {red}Missing Shakan',
     rewarn_timeout: 5,
   },
 ];
