@@ -164,7 +164,16 @@ module.exports = [
     abnormalities: [702001],
     message: '{icon} on',
   },
-
+  
+  // Increased Attack Speed Debuff (+9 hands) - 60sec
+  {
+    type: 'Expiring',
+    target: 'Self',
+    abnormalities: 18817,
+    message: '{icon} - {violet}{duration}',
+	time_remaining: [0, 3, 6],
+  },
+  
   // Bahaar Laser
   {
     type: 'Added',
