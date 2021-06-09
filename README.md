@@ -18,6 +18,7 @@ The file `./config/common_styling.js` contains the default styling options that 
 These options may be overridden, per event, by using style tags in the `message` field of the event.
 
 This example shows the default style tags:
+
 ```
 "{chat}{alert}{red}"
 ```
@@ -37,6 +38,7 @@ You can specify colors via style tags.
 Here is an image showing the preset color tags.
 
 You can:
+
 - Use preset colors. `{red}`
 - Use custom hex codes. `{#ff0000}`
 - Use multiple color tags in the same message. `{red}this text is red {blue}this text is blue`
@@ -44,6 +46,7 @@ You can:
 ## Abnormality Events
 
 This is an example of an abnormality event:
+
 ```
 	// Enrage Expiring, notify at 12 and 6 seconds remaining
 ,	{
@@ -58,6 +61,7 @@ This is an example of an abnormality event:
 #### type
 
 The `type` field can be any of the following (case-insensitive):
+
 - `'Added'` An abnormality was added to the target.
 - `'AddedOrRefreshed'` An abnormality was added, or refreshed on the target.
 - `'Refreshed'` An abnormality was refreshed on the target.
@@ -76,6 +80,7 @@ The `type` field can be any of the following (case-insensitive):
 #### target
 
 The `target` field can be any of the following (case-insensitive):
+
 - `'Self'` Your character.
 - `'MyBoss'` The boss that you are attacking.
 - `'Party'` Any party member, excluding yourself.
@@ -96,6 +101,7 @@ Since the game does not normally have an abnormality ID for enrage, it is hard-c
 The `message` field specifies the message to be shown on the in-game notification when the event triggers. It should be a string.
 
 You can use the following text in your string and the module will replace it with the relevant information:
+
 - `{duration}` Display the remaining duration of the abnormality. Will not work with `'Missing'` or `'Removed'` type events. (Displays in seconds, e.g. `36s`)
 - `{stacks}` Display the number of stacks that the abnormality has on the target. (Displays an integer, e.g. `6`)
 - `{name}` The in-game name of the target that was specified.
@@ -113,6 +119,7 @@ Skill cooldown events should only be used in class-specific config files (i.e. a
 Item cooldown events may be used in any config file.
 
 This is an example of a cooldown event:
+
 ```
 	// Fire Avalanche is coming off cooldown in 10 seconds
 ,	{
@@ -124,6 +131,7 @@ This is an example of a cooldown event:
 ```
 
 This is an example of a skill reset event:
+
 ```
 	// Blade Draw Reset
 ,	{
@@ -136,17 +144,18 @@ This is an example of a skill reset event:
 #### type
 
 The `type` field for a cooldown event can be any of the following:
+
 - `'Expiring'` A cooldown is expiring in a specified amount of time.
 - `'ExpiringDuringCombat'` As above, plus you are in combat.
 - `'ExpiringDuringEnrage'` As above, plus the boss is enraged.
-	- All of the above `'Expiring'` type events have extra arguments: `time_remaining` (Default: 6)
-	- A `time_remaining` of `5` would mean that you are notified when 5 seconds are left on the cooldown of the skill or item.
-	- You can specify multiple values in an array `[5, 10]` to be notified at multiple times, 5 and 10 seconds in this case.
+  - All of the above `'Expiring'` type events have extra arguments: `time_remaining` (Default: 6)
+  - A `time_remaining` of `5` would mean that you are notified when 5 seconds are left on the cooldown of the skill or item.
+  - You can specify multiple values in an array `[5, 10]` to be notified at multiple times, 5 and 10 seconds in this case.
 - `'Ready'` The item or skill in question is off cooldown.
 - `'ReadyDuringCombat'` As above, plus you are in combat.
 - `'ReadyDuringEnrage'` As above, plus the boss is enraged.
-	- All of the above `'Ready'` type events have extra arguments: `rewarn_timeout` (Default: 5)
-	- A `rewarn_timeout` of `5` would mean that you are notified every 5 seconds while the conditions for the event are met. This prevents spam.
+  - All of the above `'Ready'` type events have extra arguments: `rewarn_timeout` (Default: 5)
+  - A `rewarn_timeout` of `5` would mean that you are notified every 5 seconds while the conditions for the event are met. This prevents spam.
 - `'Reset'` The skill's cooldown was reset by a glyph.
 
 Please note! `Ready` type events will also be triggered by skill resets. There should be no cases in which you need a `Ready` event and a `Reset` event for the same skill. Should you configure it as such, you would be notified twice when a skill reset happens.
@@ -165,26 +174,29 @@ Skills trigger an event by their respective group, rather than the raw skill ID 
 
 The `items` field specifies the item ID(s) that you want to track.
 
-You can find a list of item IDs at this website, under `Database -> Items`: [TeraLore](https://teralore.com/us) (note: You should *not* use this site to get skill IDs. Only use this site for item IDs).
+You can find a list of item IDs at this website, under `Database -> Items`: [TeraLore](https://teralore.com/us) (note: You should _not_ use this site to get skill IDs. Only use this site for item IDs).
 
 You can specify a single item ID `98267` or multiple item IDs in an array `[98267, 98260]`.
 
 You may specify items and skills under the same event, but they must still be separated by their respective types.
+
 ```
 	skills: 80100,
 	items: [98267, 98260]
 ```
 
-When you specify multiple skills, items, or both, they will be processed individually. This means that the script will not wait for *all* of the skills/items to meet the conditions that you specify, it will check if each of them meets the condition individually and notify you as such.
+When you specify multiple skills, items, or both, they will be processed individually. This means that the script will not wait for _all_ of the skills/items to meet the conditions that you specify, it will check if each of them meets the condition individually and notify you as such.
 
 #### message
 
 The `message` field specifies the message to be shown on the in-game notification when the event triggers. It should be a string.
 
 You can use the following text in your string and the module will replace it with the relevant information:
+
 - `{duration}` Display the time remaining on the cooldown, in seconds. (e.g. `5s`)
 - `{icon}` Display the icon of the skill or item in question.
 
 ## Planned Features
+
 - Boss mechanic events (e.g. P3 Vergos debuffs)
 - In-game commands (on, off, ...)
