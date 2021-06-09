@@ -61,10 +61,10 @@
 			"overwrite": false,
 			"hash": "e4afbac6489087a319a81eced7cd33980bdda0ad1e73e6207dcf65b9f8c651b8"
 		},
-        "index.js": "e80c22bed56c711e36b35dc7a0f1b83985e9a354e99a2dfb1e4dde18bfcf4507",
+		"index.js": "e80c22bed56c711e36b35dc7a0f1b83985e9a354e99a2dfb1e4dde18bfcf4507",
         "lib/abnormal.js": "11ce0909e6eb65c719ce8927b4e26d98430d3ffa3a14bb8ab5ad8dd2f5ec4950",
         "lib/cooldown.js": "337f80316367c5e1874396c68c46b04702ab59bbc504ab06bc2b190a909f7e81",
-        "lib/entity.js": "bd6f162409d7f5a7945060deb776c6bb8b9221b37ccb135317360e4556a72c31",
+        "lib/entity.js": "f512f84518305fe1923a5edc74479dfc967363b40bf406b21aa846c726a8e123",
         "lib/notify.js": "8a8c64ecb91db9c1d39a0b1286f44652fb537718a2145b47674811342c08b082",
         "lib/party.js": "0c9da6bc9a995083b028872ac3267bbedd718c9dbdf62fa1a021d08f2222f485",
         "module.json": "b89fd9b55e43d645441b8c56efaeb984b91bcaea8eb27fb67491e2c40496851c",
